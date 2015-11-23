@@ -80,6 +80,8 @@ Installation
 
 #. Add  ``datetimewidget`` to your INSTALLED_APPS.
 
+#. Run ``./manage.py collectstatic`` to copy ``bootstrap-datetimepicker.js`` and ``datetimepicker.css`` in your ``static`` directory.
+
 If you want to use localization:
 
 #. Set USE_L10N = True, USE_TZ = True  and USE_I18N = True in settings.py
